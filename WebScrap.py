@@ -84,4 +84,4 @@ rating_list.remove(rating_list[index])
 
 dataframe = pd.DataFrame({'Title':game_title,'Orignal Price':orig_price,'Discounted Price':discount_price,'Dicount':discount,'User Rating':rating_list})
 dataframe = dataframe.sort_values('Dicount')
-dataframe.to_excel('steam_data.xlsx')
+dataframe.to_csv('Images/steam_data.csv')
